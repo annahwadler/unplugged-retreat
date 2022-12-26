@@ -389,21 +389,20 @@ input[type=button] {
     margin: 0;
   }
 
-  .map figure {
-    width: 100%;
+  .embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
     height: 0; 
-    padding-bottom: 125%; 
-    overflow: hidden;
-    position: relative;
-}
- 
-.map iframe {
-    width: 100%;
-    height: 100%;
+    overflow: hidden; 
+    max-width: 100%; 
+  } 
+  .embed-container iframe, .embed-container object, .embed-container embed { 
     position: absolute; 
     top: 0; 
     left: 0; 
-}
+    width: 100%; 
+    height: 100%; 
+  }
   
   /* ==========================================================================
      FAQ Page
@@ -689,6 +688,10 @@ h3 {
     font-size: 1.5em;
   }
 
+  .embed-container {
+    padding-bottom: 45.5%;
+  }
+
   /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -783,6 +786,10 @@ h3 {
   /* ==========================================================================
   About Page
   ========================================================================== */
+
+  .embed-container {
+    padding-bottom: 37.5%;
+  }
 
   .mission h2,
   .contact-section .content-wrapper h2 {
