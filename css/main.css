@@ -669,7 +669,7 @@ h3 {
   }
 
   footer p {
-      line-height: 1.285;
+    line-height: 1.285;
   }
 
   footer .copyright {
@@ -807,6 +807,10 @@ h3 {
   
   .reviews article div {
     width: 42%;
+  }
+
+  .reviews h3 {
+    padding-right: 250px;
   }
 
   footer h4 {
